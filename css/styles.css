@@ -10,7 +10,7 @@
 }
 
 .header-content span {
-  padding: 15px;
+  padding: 30px;
   font-family: Helvetica;
   font-weight: lighter;
   font-size: 4em;
@@ -35,13 +35,14 @@
 
 .navigation a {
   text-decoration: none;
+  font-weight: lighter;
   display: block;
   padding: 1em;
   color: white;
 }
 
 .navigation a:hover {
-  background-color: #434343;
+  background-color: #666666;
 }
 
 @media all and (max-width: 800px) {
@@ -98,7 +99,8 @@
 
   line-height: 150px;
   color: white;
-  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
   font-size: 3em;
   text-align: center;
 }
